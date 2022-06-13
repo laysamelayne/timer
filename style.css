@@ -1,0 +1,80 @@
+
+
+body{
+    background: url(https://images.pexels.com/photos/1539225/pexels-photo-1539225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    overflow-y: hidden;
+}
+
+#slogan{
+    display: flex;
+    gap: .6rem;
+   align-items: center;
+}
+
+#slogan svg{
+    width: 30px;
+    fill: #fff;
+}
+
+section{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    margin: auto;
+    display: block;
+    text-align: center;
+
+   
+    width: 100%;
+    padding: 1rem;
+  
+    background: rgba(0, 0, 0, 0.556);
+    border: .3rem solid rgb(0, 0, 0);
+}
+
+.content{
+    padding: 0;
+    
+}
+
+#timer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.button,
+button{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 300px;
+    padding: .5rem;
+    border: none;
+    position: relative;
+   
+}
+button{
+    background-color: rgb(26, 85, 203);
+    color: #fff;
+  
+}
+
+@media (min-width: 700px){
+    .container{
+        max-width: 500px;
+    }
+
+    .content{
+        padding: 0 5rem;
+    }
+}
